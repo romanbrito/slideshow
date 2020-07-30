@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 
 export default ({ data, transition }) => (
   <div style={{'width': '100%'}}>
+    {console.log('data', data)}
     <div
       style={transition && transition.style}
       dangerouslySetInnerHTML={{ __html: data.slide.html }}

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    name: `Fabian Schultz`,
-    title: `Gatsby Deck`,
-    date: `July 30, 2018`,
+    name: `Joe Juice`,
+    title: `Slideshow Example`,
+    date: `July 30, 2020`,
   },
   plugins: [
     `gatsby-plugin-layout`,
@@ -26,7 +26,7 @@ module.exports = {
               // It's important to specify the maxWidth (in pixels) of
               // the content container as this plugin uses this as the
               // base for generating different widths of each image.
-              maxWidth: 1920,
+              maxWidth: 1080,
             },
           },
         ],

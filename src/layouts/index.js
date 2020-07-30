@@ -61,11 +61,6 @@ class TemplateWrapper extends Component {
         <Helmet
           title={`${site.siteMetadata.title} — ${site.siteMetadata.name}`}
         />
-        <Header
-          name={site.siteMetadata.name}
-          title={site.siteMetadata.title}
-          date={site.siteMetadata.date}
-        />
         <Swipeable
           onSwipedLeft={this.swipeLeft}
           onSwipedRight={this.swipeRight}
