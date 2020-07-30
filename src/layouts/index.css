@@ -41,9 +41,9 @@ html {
   justify-content: center;
   align-items: center;
 
-  width: 100vw;
-  height: 100vh;
-  padding: 1rem;
+  width: 1080px;
+  height: 1920px;
+  /* padding: 1rem; */
 
   text-align: center;
 
