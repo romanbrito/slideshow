@@ -28,7 +28,7 @@ module.exports = {
               // base for generating different widths of each image.
               maxWidth: 1080,
               linkImagesToOriginal: false,
-              wrapperStyle: `max-width: 100%;`
+              wrapperStyle: `max-width: 100%; height: 1920px;`
             },
           },
         ],
